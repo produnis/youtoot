@@ -1,11 +1,11 @@
 # YouToot
 
-A small python 3.x script to post youtube-videos on a mastodon account. 
+A small python 3.x script to post youtube-videos from a youtube-chanel on a mastodon account. 
 It is based on https://github.com/cquest/tootbot by Christian Quest
 
-The script only need mastodon login/pass to post toots.
+The script only needs mastodon login/pass to post toots.
 
-It gets the videos from RSS available at https://www.youtube.com/feeds/videos.xml?channel_id=
+It gets the videos from RSS available at https://www.youtube.com/feeds/videos.xml?channel_id=CHANELIDOFDESIRE  (where CHANELIDOFDESIRE is the ID of the youtube-chanel you want to follow).
 
 A sqlite database is used to keep track of tweets than have been tooted.
 
