@@ -76,7 +76,7 @@ for t in reversed(d.entries):
 		textmessage = t.summary
 		if (len(t.summary) > 350):
 			textmessage = t.summary[0:350]
-		tootmessage = "%s\n%s" % (textmessage, t.link)
+		tootmessage = "%s\n%s" % (t.link,textmessage)
 		print(tootmessage)
 		toot = mastodon_api.status_post(status=tootmessage, in_reply_to_id=None, sensitive=False, visibility='public', spoiler_text=None)
 		if "id" in toot:
