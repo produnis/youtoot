@@ -31,3 +31,8 @@ Example:
 `python3 youtoot.py UCT0hbLDa-unWsnZ6Rjzkfug foobar@botsin.space **password** botsin.space`
 
 It's up to you to add this in your crontab :)
+
+## Live Demo
+See this bot in action here:
+* https://botsin.space/@filmselect
+* https://botsin.space/@mariomaker
